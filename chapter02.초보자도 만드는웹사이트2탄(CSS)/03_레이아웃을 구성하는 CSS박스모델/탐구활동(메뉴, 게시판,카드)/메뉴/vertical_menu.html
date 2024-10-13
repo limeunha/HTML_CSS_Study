@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         /*초기화 css*/
+         *,
+         body {
+            margin: 0;
+            padding: 0;
+         }
+         ul {
+            background-color: #f1f1f1;
+            list-style: none;
+            width: 200px; /*메뉴 전체 width 지정 */
+         }
+
+         a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            /* padding을 올바르게 적용하기 위해서는 display를 block 혹은 inline-block 적용 */
+            padding: 8px 16px;
+         }
+         /*메뉴에 호버했을때 a요소의 css속성을 이렇게 바꾼다*/
+         a:hover {
+            background-color: black;
+            color: #fff;
+         }
+      </style>
+   </head>
+   <body>
+      <ul>
+         <li><a href="#">홈</a></li>
+         <li><a href="#">뉴스</a></li>
+         <li><a href="#">블로그</a></li>
+         <li><a href="#">쇼핑</a></li>
+      </ul>
+   </body>
+</html>

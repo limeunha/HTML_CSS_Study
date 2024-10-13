@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+/* 초기화 CSS */
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 0.9em;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+p {
+   margin: 0;
+}
+
+/* 고정형 레이아웃 */
+
+.wrap {
+   min-width: 1200px;
+   overflow: hidden;
+}
+
+/* 헤더 */
+
+header {
+   position: relative;
+   height: 85px;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid rgb(193, 193, 193);
+   background-color: #fff;
+   width: 100%; /* 직방은 메뉴의 width가 100% */
+}
+
+.nav__menu > li {
+   /* 하위 메뉴 만들기 위해 적용 */
+   position: relative;
+   top: 0;
+
+   /* 수평정렬 */
+   display: inline-block;
+   padding: 20px;
+}
+
+nav.login {
+   font-size: 11px;
+   background-color: rgb(232, 232, 232);
+   border: 1px solid rgb(202, 202, 202);
+   border-radius: 5px;
+   color: #000;
+   width: 125px;
+   height: 30px;
+   margin-right: 20px;
+}
+
+nav .right-menu__btn {
+   width: 113px;
+}
+
+/* 본 메뉴 */
+.w1 {
+   display: block;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.w2 {
+   display: block;
+   font-size: 13px;
+}
+
+/* 하위 메뉴 */
+
+.sub-menu {
+   display: none; /*화면에서 안보임*/
+   width: 200px;
+   background-color: #fff;
+
+   /* 하위 메뉴 만들기 위해 absolute적용 (li태그를 기준으로 위치를 잡는다 )*/
+   position: absolute;
+
+   /* 하위메뉴가 나타날 위치 (메뉴 height와 같다) */
+   top: 85px;
+   border: 1px solid rgb(202, 202, 202);
+}
+
+.nav__menu li:hover .sub-menu {
+   display: block;
+}
+
+.sub-menu > li {
+   padding: 10px;
+}
+
+.login {
+   min-width: 106px;
+   height: 30px;
+   border-radius: 4px;
+   background-color: rgb(238, 238, 238);
+   padding: 5px 8px 6px;
+   font-size: 12px;
+   color: #000;
+   position: relative;
+   text-align: center;
+   box-sizing: border-box;
+   border: 1px solid rgb(225, 225, 225);
+   display: inline-block;
+   text-align: right;
+}
+
+.section1__banner1 {
+   background-image: url(../images/bg.jpg);
+   position: relative;
+   width: 100%;
+   height: 460px;
+   /* margin: 0px auto; */
+   /* display: flex; */
+   align-items: center;
+   background-size: cover;
+
+   text-shadow: rgb(255, 255, 255) 0px 16px 40px;
+   font-size: 40px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.15;
+   letter-spacing: normal;
+   text-align: center;
+   color: #fff;
+   margin: 0px auto;
+   cursor: default;
+}
+
+.section1__banner2 {
+   width: 684px;
+   height: 46px;
+   text-shadow: rgb(255, 255, 255) 0px 16px 40px;
+   font-size: 40px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.15;
+   letter-spacing: normal;
+   text-align: center;
+   color: #fff;
+   margin: 0px auto;
+   cursor: default;
+}
+
+.main__top .main-section2 {
+   width: 100%;
+   padding: 40px 0px 27px;
+   background: #fff;
+   overflow: hidden;
+}
+
+.section2__banner {
+   margin: auto;
+   width: 840px;
+   flex-direction: row;
+   display: flex;
+}
+
+.section2__banner1 {
+   width: 260px;
+   display: block;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+.section2__banner2 {
+   margin-left: 30px;
+   width: 260px;
+   display: inline-block;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+.banner1-2 {
+   background-image: url(../images/banner1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   inset: 0px;
+   height: 140px;
+   width: 260px;
+}
+
+.section2__banner3 {
+   width: 260px;
+   margin-left: 30px;
+   display: block;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   color: black;
+}
+
+.banner3-1 {
+   display: flex;
+}
+
+.section2__btn {
+}
+
+.main__top .main-section3 {
+   background-color: rgb(207, 214, 214);
+   height: 279px;
+   display: flex;
+   text-align: center;
+}
+
+.section3__content1 {
+   background: url(../images/phone.png) 109px 0px / contain no-repeat;
+   width: 890px;
+   height: 280px;
+   padding-left: 366px;
+   margin: 0px auto;
+   box-sizing: border-box;
+}
+
+.section3__content1-1 {
+   font-size: 17px;
+   font-weight: bold;
+   margin-bottom: 40px;
+   margin-left: 4px;
+   margin-top: 101px;
+}
+
+footer {
+   flex-shrink: 1;
+   min-height: 298px;
+   width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+   background: rgb(255, 255, 255);
+   color: rgb(153, 153n, 153);
+   padding: 52px 0px 20px;
+   position: relative;
+   text-align: center;
+}
+
+.footer__content1 {
+   font-size: 12px;
+   padding-bottom: 20px;
+}
+
+.footer__content2 {
+   color: rgb(76, 76, 76);
+   font-size: 12px;
+   line-height: 1.6em;
+}
+
+.ellipsis {
+   width: 300px; /* 필요한 너비를 설정(필수) */
+   white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 설정(필수) */
+   overflow: hidden; /* 넘치는 텍스트를 숨김(필수) */
+   text-overflow: ellipsis; /* 넘치는 텍스트를 말줄임표로 표시(필수) */
+   border: 1px solid #ccc; /* 컨테이너 확인을 위한 테두리 (옵션) */
+   padding: 10px; /* 패딩 (옵션) */
+}

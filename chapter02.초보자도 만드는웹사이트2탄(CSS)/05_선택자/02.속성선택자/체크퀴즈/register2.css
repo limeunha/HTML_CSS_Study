@@ -1,0 +1,76 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: #ccc;
+   padding: 15px;
+}
+
+#signup {
+   background: #fff;
+   border: 1px solid #000;
+   border-radius: 5px;
+   padding: 20px;
+   width: 400px;
+   margin: 30px auto;
+}
+/* = signup fieldest 도 같다*/
+#signup > fieldset {
+   border: 1px solid #ccc;
+   margin-bottom: 30px;
+}
+
+/* = #signup > fieldset > legend 도 같다 */
+#signup legend {
+   font-size: 16px;
+   font-weight: bold;
+   padding-left: 5px;
+   padding-bottom: 10px;
+}
+/* 그룹선택자를 사용할떄 자손선택자를 지정해주지 않으면 body안에 있는 요소를 선택하는 것으로 인식하므로 각각 자손선택자를  똑같이 지정해줘야 한다 */
+#signup input[type='text'],
+#signup input[type='password'],
+#signup input[type='tel'],
+#signup input[type='email'] {
+   border: 1px solid #000;
+   border-radius: 3px;
+   font-size: 13px;
+   padding: 5px;
+   width: 200px;
+}
+
+#signup ul li {
+   list-style: none;
+   padding: 5px 10px;
+   margin-bottom: 2px;
+   line-height: 30px;
+}
+
+#signup button {
+   border: 1px solid #000;
+   border-radius: 20px;
+   font-size: 16px;
+   padding: 7px 25px;
+   /*인라인 가운데 정렬을 위해서 display를 올바르게 바꿔줘야 한다*/
+   display: block;
+   letter-spacing: 1px;
+}
+
+#signup label {
+   font-size: 13px;
+   width: 110px;
+   /*인라인 태그는 width를 사용하기 위해서 display 변경*/
+   display: inline-block;
+   /*float: left;*/
+}
+
+/*필수 입력 필드에  빨간 테두리 지정(속성 선택자)*/
+#signup input[required] {
+   border: 1px solid red;
+}
+/*읽기 전용 필드의 테두리 없애기(속성 선택자)*/
+#signup input[readonly] {
+   border: none;
+}

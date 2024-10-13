@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         .parent {
+            /*원래 있었던 자리 기준으로 움직임*/
+            width: 400px;
+            height: 200px;
+            position: relative;
+            top: 100px;
+            left: 200px;
+            background-color: royalblue;
+         }
+
+         .child {
+            /*position: relative; /*부모태그 기준으로 움직임*/
+            top: 150px;
+            left: 300px;
+            width: 200px;
+            height: 100px;
+            background-color: salmon;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="parent">
+         <div class="child"></div>
+      </div>
+   </body>
+</html>

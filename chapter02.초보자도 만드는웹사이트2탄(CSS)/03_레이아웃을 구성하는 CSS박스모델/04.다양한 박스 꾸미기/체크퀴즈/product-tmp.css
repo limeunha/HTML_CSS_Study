@@ -1,0 +1,30 @@
+#description,
+#receipe,
+#package {
+   border: 1px dotted #222;
+   margin: 30px 0;
+   padding: 30px;
+}
+#description {
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+}
+
+table {
+   border: 1px solid gray;
+   border-collapse: collapse;
+}
+
+th,
+td {
+   border-style: dotted;
+   border: 1px solid gray;
+   padding: 10px 10px;
+   width: 600px;
+   margin: 0 auto;
+}
+
+#package {
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+}

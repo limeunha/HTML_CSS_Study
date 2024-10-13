@@ -1,0 +1,127 @@
+/*초기화 코드*/
+body {
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+/* 레이아웃 코드(fixed layout)*/
+
+.wrap {
+   /* 1200px 보다 작아지지 않음 -> 사이트의 레이아웃이 틀어지지 않게 하기 위해(fixed layout을 위한 공식) */
+   min-width: 1200px; /* 중요 */
+   overflow: hidden; /* 선택사항 */
+}
+
+header {
+   height: 280px;
+   background-color: aqua;
+   position: relative; /* 반드시 줘야한다(fixed layout을 위한 공식) */
+}
+
+.header__menu {
+   height: 80px;
+}
+
+.header__search {
+   height: 200px;
+}
+
+main {
+   width: 1200px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.left {
+   width: 900px;
+   background-color: rgb(32, 109, 109);
+   /* height: 2000px; */
+   float: left;
+}
+
+.left__banner {
+   height: 150px;
+}
+.left__news {
+   height: 450px;
+}
+.left__themecast {
+   height: 2000px;
+}
+
+.themecast__header {
+   height: 50px;
+}
+
+.themecast__content {
+   height: 1950px;
+}
+
+.themecast__living1,
+.themecast__living2 {
+   height: 800px;
+}
+/* ul태그*/
+.living__list {
+   height: 100%;
+}
+.living__list li {
+   height: 20%;
+   display: flex;
+}
+
+.living__list__img {
+   display: block;
+   width: 250px;
+}
+
+.living__list__contents {
+   display: block;
+   width: 650px;
+}
+
+.themecast__hotclick {
+   height: 350px;
+   /* height: 100%; 같다 */
+   display: flex;
+}
+
+.hotclick__funding {
+   /* flex: 1; */
+   width: 33.33%;
+}
+
+.aside {
+   width: 300px;
+   height: 2600px;
+   background-color: blueviolet;
+   float: right;
+}
+
+.aside__login {
+   height: 150px;
+}
+
+.aside__mini {
+   height: 50px;
+}
+
+.aside__banner {
+   height: 150px;
+}
+
+.aside__shopping {
+   height: 100%;
+}
+
+footer {
+   height: 300px;
+   background-color: plum;
+   clear: both;
+}

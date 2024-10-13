@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         * {
+            margin: 0;
+            padding: 0;
+         }
+
+         #wrap {
+            width: 100%;
+            /* min-width : 뷰포트가 줄어들어도 최소 960px보다 작아지지 X , 보통은 width와 많이 쓰임 */
+            /* min-width: 960px; */
+
+            /* max-width :  뷰포트가 커져도 최대 960px보다 커지지 X */
+            max-width: 960px;
+            height: 500px;
+            background-color: skyblue;
+            margin: 0 auto;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="wrap"></div>
+   </body>
+</html>
