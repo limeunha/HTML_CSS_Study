@@ -42,4 +42,26 @@ body {
     box-sizing: border-box;
  }
 
- 
+.nav__menu{
+   overflow: hidden;
+   list-style: none;
+}
+
+.nav__menu li{
+   float: left;
+}
+
+.nav__menu li:first-child{
+   padding-left: 135px;
+}
+
+.nav__menu .menu1{
+   display: block;
+   position: relative;
+   margin-right: 25px;
+   padding: 26px 18px 23px;
+   font-size: 18px;
+   line-height: 20px;
+   color: #000;
+   text-decoration: none;
+}
