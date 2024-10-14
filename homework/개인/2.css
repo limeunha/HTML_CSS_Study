@@ -88,3 +88,39 @@ nav {
    padding: 24px 0 25px 20px;
    text-align: left;
 }
+
+footer {
+   background-color: #383838;
+}
+
+.footer__content {
+   overflow: hidden;
+   position: relative;
+   max-width: 1920px;
+   padding: 41px 222px 51px;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+.footer__logo {
+   float: left;
+   width: 132px;
+   height: 24px;
+   margin-top: 3px;
+   background-position: -90px -40px;
+}
+
+.footer__content1 {
+   padding: 4px 0 0 192px;
+   font-size: 14px;
+}
+
+.footer__content1 > a {
+   font-size: 16px;
+   color: #bdbdbd;
+}
+
+.txt_bar {
+   padding: 0 16px;
+   color: #5e5e5e;
+}
