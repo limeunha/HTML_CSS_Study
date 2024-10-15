@@ -50,9 +50,28 @@ nav {
    box-sizing: border-box;
 }
 
+.nav__content {
+   overflow: hidden;
+   position: relative;
+   margin: 0 auto;
+   text-align: center;
+}
+
 .nav__logo {
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
    padding-top: 22px;
+   background: url(https://webofficial.kakaogames.com/live/official/image/pc/20200819/ko/img_g_230526.png);
+   width: 171px;
    height: 31px;
+   display: block;
+   overflow: hidden;
+   font-size: 0;
+   line-height: 0;
+   background-size: 400px 400px;
+   text-indent: -9999px;
 }
 
 .nav__menu {
@@ -89,6 +108,63 @@ nav {
    text-align: left;
 }
 
+.main__content {
+   max-width: 1920px;
+   margin: 0 auto;
+   padding: 0 220px 147px;
+   box-sizing: border-box;
+}
+
+.main__content1 {
+   overflow: hidden;
+   height: 150px;
+   margin: 0 -24px;
+}
+
+.main__content2 {
+   float: left;
+   width: 25%;
+   padding: 56px 0 0 26px;
+   font-weight: normal;
+   font-size: 36px;
+   letter-spacing: -1px;
+   text-indent: 2px;
+   white-space: nowrap;
+   box-sizing: border-box;
+}
+
+.content__bar {
+   padding: 0 6px;
+   color: #bdbdbd;
+}
+
+.main__content3 {
+   float: left;
+   width: 50%;
+   padding: 52px 26px 0;
+   box-sizing: border-box;
+}
+
+.content5 {
+   display: block;
+   overflow: hidden;
+   font-size: 18px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   color: #000;
+   text-decoration: none;
+}
+
+.content6 {
+   display: block;
+   overflow: hidden;
+   font-size: 18px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   color: #000;
+   text-decoration: none;
+}
+
 footer {
    background-color: #383838;
 }
@@ -103,11 +179,18 @@ footer {
 }
 
 .footer__logo {
+   background: url(https://webofficial.kakaogames.com/live/official/image/pc/20200819/ko/img_g_230526.png);
+   display: block;
+   background-size: 400px 400px;
+   text-indent: -9999px;
+   line-height: 0;
+   font-size: 0;
+   overflow: hidden;
+   background-position: -90px -40px;
    float: left;
    width: 132px;
    height: 24px;
    margin-top: 3px;
-   background-position: -90px -40px;
 }
 
 .footer__content1 {
@@ -123,4 +206,19 @@ footer {
 .txt_bar {
    padding: 0 16px;
    color: #5e5e5e;
+}
+
+.kakaoadd {
+   padding-top: 19px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #9d9d9d;
+   font-style: normal;
+}
+
+.kakaocopy {
+   display: block;
+   padding-top: 15px;
+   font-size: 16px;
+   color: #9d9d9d;
 }
