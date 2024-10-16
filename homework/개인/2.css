@@ -114,43 +114,6 @@ nav {
    text-align: left;
 }
 
-.main__content {
-   max-width: 1920px;
-   margin: 0 auto;
-   padding: 0 220px 147px;
-   box-sizing: border-box;
-}
-
-.main__content1 {
-   overflow: hidden;
-   height: 150px;
-   margin: 0 -24px;
-}
-
-.main__content2 {
-   float: left;
-   width: 25%;
-   padding: 56px 0 0 26px;
-   font-weight: normal;
-   font-size: 36px;
-   letter-spacing: -1px;
-   text-indent: 2px;
-   white-space: nowrap;
-   box-sizing: border-box;
-}
-
-.content__bar {
-   padding: 0 6px;
-   color: #bdbdbd;
-}
-
-.main__content3 {
-   float: left;
-   width: 50%;
-   padding: 52px 26px 0;
-   box-sizing: border-box;
-}
-
 footer {
    background-color: #383838;
 }
