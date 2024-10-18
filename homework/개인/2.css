@@ -60,6 +60,7 @@ nav {
    position: relative;
    margin: 0 auto;
    text-align: center;
+   
 }
 
 .nav__content1{
@@ -69,7 +70,6 @@ nav {
    top: 0;
    padding-top: 22px;
 }
-
 
 .nav__logo {
    background: url(https://webofficial.kakaogames.com/live/official/image/pc/20200819/ko/img_g_230526.png);
