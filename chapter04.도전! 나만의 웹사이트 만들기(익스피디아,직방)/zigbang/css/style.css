@@ -120,7 +120,48 @@ nav .right-menu__btn {
    text-align: right;
 }
 
-.section1__banner1 {
+.right-menu{
+   float: right;
+   display: table;
+   height: 80px;
+}
+
+.right-menu__btn__top{
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+   padding-right: 20px;
+
+
+}
+
+.right-menu__top{
+  flex-direction: row;
+
+}
+
+.homelink{
+   height: 39px;
+   padding: 21px 21px 20px 13px;
+   margin-left: 15px;
+ 
+}
+
+.right-menu__btn .homelink img{
+   display: block;
+}
+
+.top__button{
+   float: right;
+   display: table;
+   height: 80px;
+}
+
+.main__top .main-section1{
+   text-align: center;
+}
+
+.section1__banner{
    background-image: url(../images/bg.jpg);
    position: relative;
    width: 100%;
@@ -130,21 +171,19 @@ nav .right-menu__btn {
    align-items: center;
    background-size: cover;
 
-   text-shadow: rgb(255, 255, 255) 0px 16px 40px;
-   font-size: 40px;
-   font-weight: bold;
-   font-stretch: normal;
-   font-style: normal;
-   line-height: 1.15;
-   letter-spacing: normal;
-   text-align: center;
-   color: #fff;
-   margin: 0px auto;
-   cursor: default;
 }
 
-.section1__banner2 {
-   width: 684px;
+.section1__banner1{
+   width: 960px;
+   height: 340px;
+   padding-top: 156px;
+   margin: 0 auto;
+   text-align: center;
+   align-items: center;
+}
+
+.section1__banner2{
+   /* width: 684px; */
    height: 46px;
    text-shadow: rgb(255, 255, 255) 0px 16px 40px;
    font-size: 40px;
@@ -155,49 +194,232 @@ nav .right-menu__btn {
    letter-spacing: normal;
    text-align: center;
    color: #fff;
-   margin: 0px auto;
    cursor: default;
+  
 }
 
-.main__top .main-section2 {
+.section1__banner3{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+display: flex;
+flex-direction: column;
+width: 574px;
+height: 196px;
+
+}
+
+.tab-menu {
+   width: 574px;
+   height: 40px;
+   line-height: 40px;
+   display: flex;
+   background-color: rgba(4, 17, 59, 0.8);
+   font-weight: 900;
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   margin-bottom: 26px;
+}
+
+.tab-sub {
+   width: 20%;
+   text-align: center;
+   color: white;
+
+  
+}
+
+.tab-sub.sub1 {
+   background-color: white;
+   width: 20%;
+   text-align: center;
+   color: black;
+   border-radius: 8px;
+}
+
+.section1__banner4{
+   background-color: rgb(255, 104, 27);
+   border-radius: 8px;
+   display: flex;
+}
+
+.section1__banner5{
+   width: 508px;
+   padding-top: 17px;
+   padding-right: 28px;
+   padding-left: 29px;
+   padding-bottom: 19px;
+   height: 60px;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   background-color: rgba(242, 242, 242, 1.00);
+   display: flex;
+   flex-direction: column;
+}
+
+.banner5-1{
+   /* height: 60px; */
+   width: 450px;
+   /* font-size: 16px; */
+   border-width: 0px;
+   background-color: rgb(242, 242, 242);
+   line-height: 1.5;
+
+}
+
+.section1__banner6{
+   z-index: 99;
+   /* position: absolute; */
+   bottom: 0px;
+   right: 0px;
+   width: 66px;
+   height: 60px;
+   border: 0px;
+   text-align: center;
+   justify-content: center;
+   border-radius: 0px 8px 8px 0px;
+   padding: 13px 18px 15px 20px;
+}
+
+.banner6-1{
+   width: 28px;
+   height: 32px;
+   object-fit: cover;
+   vertical-align: baseline;
+   margin: 0;
+   padding: 0;
+   border: 0;
+
+  
+}
+
+.tab-menu__content1{
+   width: 508px;
+   padding-top: 17px;
+   padding-left: 29px;
+   padding-bottom: 19px;
+   height: 60px;
+   padding-right: 28px;
+}
+
+.tab-menu__content1-1{
+   height: 60px;
+   font-size: 16px;
+   border-width: 0px;
+   background-color: #ccc;
+   line-height: 1.5;
+}
+
+.section2__banner {
    width: 100%;
    padding: 40px 0px 27px;
    background: #fff;
    overflow: hidden;
+   margin: 0 auto;
 }
 
-.section2__banner {
+.section2__content {
    margin: auto;
    width: 840px;
    flex-direction: row;
    display: flex;
 }
 
-.section2__banner1 {
-   width: 260px;
-   display: block;
-   overflow: hidden;
-   white-space: nowrap;
-   text-overflow: ellipsis;
+.section2__content1-1{
+   display: flex;
+   flex-direction: column;
 }
 
-.section2__banner2 {
-   margin-left: 30px;
+.section2__banner1 {
    width: 260px;
-   display: inline-block;
+   display: flex;
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;
+   position: relative;
+
+}
+
+.banner1-1{
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-bottom: 30px;
 }
 
 .banner1-2 {
    background-image: url(../images/banner1.jpg);
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    inset: 0px;
    height: 140px;
    width: 260px;
+   padding: 20px;
+  
 }
+
+
+.banner2{
+margin-left: 30px;
+width: 260px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+display: flex;
+flex-direction: column;
+
+}
+
+.banner2__content{
+   display: flex;
+   flex-direction: row;
+
+ 
+}
+
+.banner2-1{
+   color: #000;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 20px;
+
+}
+
+.banner2-2{
+   width: 60px;
+   height: 30px;
+   border-radius: 4px;
+   background-color: rgb(238, 238, 238);
+   padding-top: 9px;
+   text-align: center;
+   margin-left: 150px;   
+}
+
+.banner2-2-1{
+   width: 100%;
+   height: 100%;
+   font-size: 12px;
+   color: rgb(117, 117, 117);
+}
+
+.banner2-3{
+   color: #000;
+   font-size: 12px;
+   line-height: 15px;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 
 .section2__banner3 {
    width: 260px;
@@ -207,13 +429,49 @@ nav .right-menu__btn {
    white-space: nowrap;
    text-overflow: ellipsis;
    color: black;
+   display: flex;
+   flex-direction: column;
+ 
 }
 
-.banner3-1 {
+.banner3__content{
    display: flex;
 }
 
-.section2__btn {
+
+.banner3-1{
+   color: #000;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 20px;
+}
+
+.banner3-2{
+   width: 60px;
+   height: 30px;
+   border-radius: 4px;
+   background-color: rgb(238, 238, 238);
+   padding-top: 9px;
+   text-align: center;
+   margin-left: 150px;
+}
+
+.banner3-2-1{
+   width: 100%;
+   height: 100%;
+   font-size: 12px;
+   color: rgb(117, 117, 117);
+  
+}
+
+.banner3-3{
+   color: #000;
+   font-size: 12px;
+   line-height: 15px;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .main__top .main-section3 {
@@ -230,6 +488,9 @@ nav .right-menu__btn {
    padding-left: 366px;
    margin: 0px auto;
    box-sizing: border-box;
+   display: flex;
+  flex-direction: column;
+   
 }
 
 .section3__content1-1 {
@@ -238,6 +499,32 @@ nav .right-menu__btn {
    margin-bottom: 40px;
    margin-left: 4px;
    margin-top: 101px;
+   display: flex;
+   flex-direction: column;
+}
+
+.section3__content2{
+display: flex;
+flex-direction: row;
+width: 400px;
+justify-content: space-between;
+
+}
+
+.section3__content2-1{
+   background-image: url(https://s.zigbang.com/legacy/images/v2/main/BTN_download_android_nor.png);
+   background-size: contain;
+   cursor: pointer;
+   height: 52px;
+   width: 190px;
+}
+
+.section3__content2-2{
+   background-image: url(	https://s.zigbang.com/legacy/images/v2/main/BTN_download_ios_nor.png);
+   background-size: contain;
+   cursor: pointer;
+   height: 52px;
+   width: 190px;
 }
 
 footer {
@@ -264,11 +551,17 @@ footer {
    line-height: 1.6em;
 }
 
+.footer__content3{
+   padding: 24px  0px 13px;
+   text-align: center;
+}
+
+
 .ellipsis {
-   width: 300px; /* 필요한 너비를 설정(필수) */
+   /* width: 300px; 필요한 너비를 설정(필수) */
    white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 설정(필수) */
    overflow: hidden; /* 넘치는 텍스트를 숨김(필수) */
    text-overflow: ellipsis; /* 넘치는 텍스트를 말줄임표로 표시(필수) */
-   border: 1px solid #ccc; /* 컨테이너 확인을 위한 테두리 (옵션) */
+   /* border: 1px solid #ccc; 컨테이너 확인을 위한 테두리 (옵션) */
    padding: 10px; /* 패딩 (옵션) */
 }

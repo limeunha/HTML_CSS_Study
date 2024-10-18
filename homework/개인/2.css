@@ -51,22 +51,25 @@ nav {
    height: 69px;
    padding: 0 53px;
    min-width: 1100px;
+   box-sizing: border-box;
    background-color: #fff;
 }
 
-.nav__content {
+.nav__content{
    overflow: hidden;
-
+   position: relative;
    margin: 0 auto;
+   text-align: center;
 }
 
-.nav__content1 {
+.nav__content1{
    position: absolute;
    z-index: 10;
    left: 0;
    top: 0;
    padding-top: 22px;
 }
+
 
 .nav__logo {
    background: url(https://webofficial.kakaogames.com/live/official/image/pc/20200819/ko/img_g_230526.png);
@@ -79,41 +82,6 @@ nav {
    background-size: 400px 400px;
    text-indent: -9999px;
 }
-
-.nav__menu {
-   overflow: hidden;
-   list-style: none;
-}
-
-.nav__menu li {
-   float: left;
-}
-
-.nav__menu li:first-child {
-   padding-left: 135px;
-}
-
-.nav__menu > li {
-   display: block;
-   position: relative;
-   margin-right: 25px;
-   padding: 26px 18px 23px;
-   font-size: 18px;
-   line-height: 20px;
-   color: #000;
-   text-decoration: none;
-}
-
-.nav__menu .menu8 {
-   display: block;
-   font-size: 18px;
-   line-height: 20px;
-   color: #000;
-   text-decoration: none;
-   padding: 24px 0 25px 20px;
-   text-align: left;
-}
-
 footer {
    background-color: #383838;
 }

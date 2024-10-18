@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
    <head>
       <meta charset="UTF-8" />
@@ -74,14 +74,22 @@
                      </ul>
                   </li>
                </ul>
-               <div class="right-menu" style="width: calc(100% - 1100px); display: flex">
-                  <div style="display: flex">
-                     <button type="button" class="login">로그인 및 회원가입</button>
+               
+                  <div class="right-menu" style="width: calc(100% - 1100px); display: flex; justify-content: flex-end">
+                  
+                  <div style="display: flex" class="right-menu__top">
+                     <div class="top__button">
+                     <div class="right-menu__btn__top">
+                        <button type="button" class="login">로그인 및 회원가입</button>
+                     </div>
+                     
                      <div class="right-menu__btn">
-                        중개사무소 가입<br />
-                        및 광고문의
+                        <a href="https://www.zigbang.com/home/RegisterInfo" class="homelink">
+                           <img src="	https://s.zigbang.com/v1/web/main/ceo_ad_img_new.png" width="126px" height="38px" alt="중개사무소가입및광고문의">
+                        </a>
                      </div>
                      <div>&gt;</div>
+                  </div>
                   </div>
                </div>
             </nav>
@@ -89,54 +97,86 @@
 
          <main class="main">
             <section class="main__top main-section1">
-               <div>
+               <div class="section1__banner">
                   <div class="section1__banner1">
-                     <div>어떤 집을 찾고 계세요?</div>
-                     <div></div>
+                  <div class="section1__banner2">어떤 집을 찾고 계세요?</div>
+                  </div>
+                  <div class="section1__banner3">
+                     <div class="tab-menu">
+                        <div class="tab-sub sub1">아파트</div>
+                        <div class="tab-sub sub2">빌라,투룸+</div>
+                        <div class="tab-sub sub3">원룸</div>
+                        <div class="tab-sub sub4">오피스텔</div>
+                        <div class="tab-sub sub5">상가</div>
+                     </div>
+                   <div class="section1__banner4">
+                     <div class="section1__banner5">
+                        <input type="text" placeholder="원하시는 지역명, 지하철명, 단지명(아파트명)을 입력해주세요" autocomplete="off" class="banner5-1">
+                     </div>
+                     <div class="section1__banner6">
+                        <img src="https://s.zigbang.com/v1/web/main/ic_search.png" alt="찾아보기" class="banner6-1">
+                        <div></div>
+                     </div>
+                   </div>
                   </div>
                </div>
             </section>
 
             <section class="main__top main-section2">
                <div class="section2__banner">
+                  <div class="section2__content">
+
+
                   <div class="section2__banner1">
-                     <div class="banner1-1">소개할게요</div>
-                     <div class="banner1-2"></div>
-                  </div>
-                  <div class="section2__banner2">
-                     <div class="banner2-1">뉴스</div>
-                     <div>
-                        <div><button class="section2__btn">더보기</button></div>
-                     </div>
-                     <div class="section2__banner2-1">
-                        <div><a href="#">9월 서울 아파트 매매 상승거래 비중 48.5%</a></div>
-                        <div><a href="#">10월 전국 3만 8,055세대 분양예정</a></div>
-                        <div><a href="#">10월 전국 2만 7,848세대 입주, 지방 63% 차지</a></div>
-                        <div><a href="#">랭킹데이터로 살펴본 2024년 수도권 아파트 시장</a></div>
-                        <div><a href="#">서울 아파트 매매거래 총액, 2024년 8월까지 44조원 규모</a></div>
+                     <div class="section2__content1-1">
+                        <div class="banner1-1">소개할게요</div>
+                        <div class="banner1-2"></div>
                      </div>
                   </div>
+
+                  <div class="banner2">
+                     <div class="banner2__content">
+                        <div class="banner2-1">뉴스</div>
+                        <div class="banner2-2">
+                           <div class="banner2-2-1">더보기</div>
+                        </div>
+                     </div>
+                     <div class="banner2-3">
+                        <div class="ellipsis">9월 서울 아파트 매매 상승거래 비중 48.5%</div>
+                        <div class="ellipsis" >10월 전국 3만 8,055세대 분양예정</div>
+                        <div class="ellipsis">10월 전국 2만 7,848세대 입주, 지방 63% 차지</div>
+                        <div class="ellipsis">랭킹데이터로 살펴본 2024년 수도권 아파트 시장</div>
+                        <div class="ellipsis">서울 아파트 매매거래 총액, 2024년 8월까지 44조원 규모</div>
+                     </div>
+                  </div>
+
+
                   <div class="section2__banner3">
+                  <div class="banner3__content">
                      <div class="banner3-1">공지사항</div>
-                     <div><button class="section2__btn">더보기</button></div>
                      <div class="banner3-2">
-                        <div><a href="#">[공지] 직방 개인정보 처리방침 (2024/09/19) 개정 안내</a></div>
-                        <div><a href="#">[공지] 직방 서비스이용약관 (2024/07/09) 개정안내</a></div>
-                        <div><a href="#">[공지] 직방 개인정보처리방침 (2024/07/08) 개정안내</a></div>
-                        <div><a href="#">[공지] 직방 개인정보처리방침 (2024/01/12) 개정안내</a></div>
-                        <div><a href="#">[공지] 직방 개인정보처리방침 (2023/09/21) 개정안내</a></div>
+                        <div class="banner3-2-1">더보기</div>
                      </div>
                   </div>
+                  <div class="banner3-3">
+                     <div class="ellipsis">[공지] 직방 개인정보 처리방침 (2024/09/19) 개정 안내</div>
+                        <div class="ellipsis">[공지] 직방 서비스이용약관 (2024/07/09) 개정안내</div>
+                        <div class="ellipsis">[공지] 직방 개인정보처리방침 (2024/07/08) 개정안내</div>
+                        <div class="ellipsis">[공지] 직방 개인정보처리방침 (2024/01/12) 개정안내</div>
+                        <div class="ellipsis">[공지] 직방 개인정보처리방침 (2023/09/21) 개정안내</div>
+                  </div> 
+                  </div>
+               </div>
                </div>
             </section>
 
             <section class="main__top main-section3">
                <div class="section3__content1">
                   <div class="section3__content1-1">직방앱을 다운받으세요!</div>
-               </div>
-               <div class="section3__content2">
-                  <div class="section3__content2-1"></div>
-                  <div class="section3__content2-2"></div>
+                  <div class="section3__content2">
+                     <div class="section3__content2-1"></div>
+                     <div class="section3__content2-2"></div>
+                  </div>
                </div>
             </section>
          </main>
@@ -156,7 +196,13 @@
                <div>상호 : (주)직방 | 대표 : 안성우 | 사업자등록번호 : 120-87-61559</div>
                <div>주소 : 서울특별시 강남구 영동대로 731, 지하 2층 (청담동, 신영빌딩) (우 : 06072)</div>
                <div>통신판매업 신고번호 : 제2021-서울강남-06358호</div>
-               <div>이메일 : cs@zigbang.com | 서비스제휴문의 :partnership@zigbang.com | 분양광고 문의 : ad@zigbang.com | 팩스 : 02-568-4908</div>
+            <div>이메일 : cs@zigbang.com | 서비스제휴문의 :partnership@zigbang.com | 분양광고 문의 : ad@zigbang.com | 팩스 : 02-568-4908</div>
+               <p class="footer__content3">
+                  <a href="#"><img src="https://s.zigbang.com/v1/web/common/ico_t2_sns1.png" alt="facebook" width="34px"></a>
+                  <a href="#"><img src="https://s.zigbang.com/v1/web/common/ico_sns_youtube.png" alt="youtube" width="34px"></a>
+                  <a href="#"><img src="https://s.zigbang.com/v1/web/common/ico_sns_blog.png" alt="blog" width="34px"></a>
+                  <a href="#"><img src="https://s.zigbang.com/v1/web/common/ico_t2_sns4.png" alt="pen" width="34px"></a>
+               </p>
                <p>Copyright © ZIGBANG. All Rights Reserved.</p>
             </div>
          </footer>
